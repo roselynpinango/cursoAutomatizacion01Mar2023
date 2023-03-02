@@ -56,6 +56,8 @@ public class  AccesoABaseDeDatos {
 			Assert.assertTrue(count > 0);
 			//Assert.assertEquals(count > 0, true);
 				
+			System.out.println("Fin de la consulta a la BD");
+			
       		// closing DB Connection		
       		con.close();			
 		}
